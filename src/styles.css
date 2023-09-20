@@ -1,0 +1,217 @@
+/* styles.css */
+
+/* Style du titre h1 */
+.titre {
+  color: #333;
+  font-size: 36px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des titres h2 */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Proxima Nova", sans-serif;
+  color: #333;
+}
+
+main {
+  margin-top: 60px;
+}
+
+/* Style de la barre de navigation */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Nouvelle hauteur de la barre de navigation */
+  background-color: #fff;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Style des éléments de la liste de navigation */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.nav-list li:last-child {
+  margin-right: 0; /* Supprime la marge à droite du dernier élément */
+}
+
+/* Style du texte de description */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des étiquettes */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des boutons */
+button {
+  background-color: #4AB6D9;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des légendes des fieldsets */
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des liens */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+/* Style des liens au survol */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style de la div principale */
+.presentation-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Style du header */
+.header {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Style des sections */
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section1 {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #4AB6D9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Style des boutons */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #4AB6D9;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: "Proxima Nova", sans-serif;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Style de la div principale */
+.presentation-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .titre {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}

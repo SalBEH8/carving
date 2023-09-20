@@ -1,24 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './navBar'; 
+import NavBar from './navBar';
+import './styles.css'; // Importez le fichier CSS que vous avez créé
 
 function PresentationPage() {
   return (
-    <div>
+    <div className="presentation-container">
       <NavBar />
-      <header>
-        <h1>Carving</h1>
+      <header className="header">
+        <h1 className="titre">Carving</h1>
         <p>Une application pour vous aider à lutter contre les addictions et gérer votre budget.</p>
       </header>
-      <main>
-        <section>
+      <main className="main-content">
+        <section className="section1">
           <h2>Comment ça fonctionne ?</h2>
-          <p>
-            Carving vous permet de suivre vos habitudes de consommation et de gérer vos dépenses liées à l'addiction.
-            Remplissez les questionnaires quotidiens pour évaluer votre sensation et votre progression au fil du temps.
-          </p>
+          <ul>
+            <li>Carving vous offre un moyen efficace de suivre de près vos habitudes de consommation et de gérer toutes les dépenses associées à votre dépendance.</li>
+            <li>Cette méthode, découverte il y a quelques années et popularisée par des experts en santé mentale, repose sur une échelle de 0 à 10 pour évaluer votre sensation quotidienne de résister à la consommation.</li>
+            <li>Vous pouvez remplir des questionnaires détaillés chaque jour pour évaluer votre sensation, notée sur une échelle de 0 (j'ai résisté seul, aucune envie de consommer) à 10 (impossible de résister, j'ai consommé sans résistance, signe d'addiction), et observer votre évolution au fil du temps.</li>
+            <li>Cela vous permettra de prendre des décisions éclairées pour votre bien-être.</li>
+          </ul>
         </section>
-        <section>
+        <section className="section">
           <h2>Pourquoi Carving ?</h2>
           <p>
             Nous croyons que la prise de conscience de vos habitudes est le premier pas vers un changement positif.
@@ -26,18 +29,24 @@ function PresentationPage() {
           </p>
         </section>
       </main>
-      <footer>
+      <footer className="footer">
         <p>
           Pour plus d'informations sur la lutte contre les addictions, consultez
-          <a href="https://www.santepubliquefrance.fr/determinants-de-sante/alcool/documents/carte-postale/probleme-d-addiction-carte-rouge" target="_blank" rel="noopener noreferrer">Santé Publique France</a>.
+          <br />
+          <a href="https://www.santepubliquefrance.fr/determinants-de-sante/alcool/documents/carte-postale/probleme-d-addiction-carte-rouge" target="_blank" rel="noopener noreferrer">
+            Santé Publique France
+          </a>
+          .
         </p>
       </footer>
-      <Link to="/inscription"> {/* Lien vers la page d'inscription */}
-        <button>Créer un compte</button>
-      </Link>
-      <Link to="/connexion"> {/* Lien vers la page de connexion */}
-        <button>Se connecter</button>
-      </Link>
+      <div className="button-container">
+        <Link to="/inscription" className="button-link"> {/* Lien vers la page d'inscription */}
+          <button className="button">Créer un compte</button>
+        </Link>
+        <Link to="/connexion" className="button-link"> {/* Lien vers la page de connexion */}
+          <button className="button">Se connecter</button>
+        </Link>
+      </div>
     </div>
   );
 }

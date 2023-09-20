@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './styles.css'; // Importez le fichier CSS que vous avez créé
+
 
 function CreationPage() {
   const [name, setName] = useState('');
