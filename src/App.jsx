@@ -1,18 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './navBar';
+import GraduationSlider from './graduationSlider'; // Importez GraduationSlider
 import './styles.css'; // Importez le fichier CSS que vous avez créé
 
 function PresentationPage() {
   return (
     <div className="presentation-container">
       <NavBar />
-      <header className="header">
-        <h1 className="titre">Carving</h1>
-        <p>Une application pour vous aider à lutter contre les addictions et gérer votre budget.</p>
-      </header>
+       <header className="header"> 
+       {/*
+        <div className="header-content">
+          <h1 className="titre">Carving</h1>
+          <p className="paragraphe">Une application pour vous aider à lutter contre les addictions et gérer votre budget.</p>
+        </div> 
+        */}
+      </header> 
       <main className="main-content">
-        <section className="section1">
+        <section className="grad-section">
+          {/* Contenu de la première section */}
           <h2>Comment ça fonctionne ?</h2>
           <ul>
             <li>Carving vous offre un moyen efficace de suivre de près vos habitudes de consommation et de gérer toutes les dépenses associées à votre dépendance.</li>
@@ -21,7 +27,9 @@ function PresentationPage() {
             <li>Cela vous permettra de prendre des décisions éclairées pour votre bien-être.</li>
           </ul>
         </section>
-        <section className="section">
+        <GraduationSlider /> {/* Incluez le composant GraduationSlider ici */}
+        <section className="grad-section">
+          {/* Contenu de la deuxième section */}
           <h2>Pourquoi Carving ?</h2>
           <p>
             Nous croyons que la prise de conscience de vos habitudes est le premier pas vers un changement positif.
@@ -36,7 +44,6 @@ function PresentationPage() {
           <a href="https://www.santepubliquefrance.fr/determinants-de-sante/alcool/documents/carte-postale/probleme-d-addiction-carte-rouge" target="_blank" rel="noopener noreferrer">
             Santé Publique France
           </a>
-          .
         </p>
       </footer>
       <div className="button-container">

@@ -1,10 +1,33 @@
 /* styles.css */
 
-/* Style du titre h1 */
+/* Style du titre h1 avec position fixe et centré */
 .titre {
   color: #333;
   font-size: 36px;
   font-family: "Proxima Nova", sans-serif;
+  position: fixed;
+  top: 60px; /* Réglez la position verticale sous la navBar */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.paragraphe {
+  color: #333;
+  font-size: 18px;
+  font-family: "Proxima Nova", sans-serif;
+  position: fixed;
+  top: 140px; /* Réglez la position verticale sous le titre h1 */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Style des titres h2 */
@@ -25,7 +48,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px; /* Nouvelle hauteur de la barre de navigation */
+  height: 60px;
   background-color: #fff;
   z-index: 100;
   display: flex;
@@ -137,11 +160,15 @@ a:hover {
 }
 
 /* Style du header */
-.header {
-  text-align: center;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+.header-content {
+  text-align: center; /* Centrez le contenu horizontalement */
+  margin-top: 20px; /* Espace entre la navBar et le contenu */
+  padding: 20px; /* Espace interne autour du contenu */
+}
+
+.header-content p {
+  font-size: 18px; /* Taille du texte */
+  color: #333; /* Couleur du texte */
 }
 
 /* Style des sections */
@@ -154,40 +181,13 @@ a:hover {
 }
 
 /* Nouvelles sections */
-.section2 {
-  margin-bottom: 20px;
+.grad-section {
+  margin-bottom: 40px; /* Augmentez l'espace entre les sections */
   padding: 20px;
-  background-color: #FFC300; /* Couleur personnalisée */
+  background-color: blueviolet;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Couleur du texte */
-}
-
-.section3 {
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #FF5733; /* Couleur personnalisée */
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Couleur du texte */
-}
-
-.section4 {
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #C70039; /* Couleur personnalisée */
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Couleur du texte */
-}
-
-.section5 {
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #900C3F; /* Couleur personnalisée */
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Couleur du texte */
+  color: #fff;
 }
 
 /* ... Vos styles CSS existants ... */
@@ -239,6 +239,17 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+/* Nouvelle classe pour l'espace entre les sections */
+.grad-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
 
 @media screen and (max-width: 768px) {
   .titre {
