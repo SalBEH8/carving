@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css'; // Importez le fichier CSS que vous avez créé
+import './styles.css';
 
 
 function AuthPage() {

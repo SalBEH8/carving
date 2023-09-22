@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css'; // Importez le fichier CSS que vous avez créé
+import './styles.css';
 
 
 function CreationPage() {
@@ -9,7 +9,7 @@ function CreationPage() {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleRegister = () => {
-    // Gérez l'inscription ici en utilisant les données du formulaire
+    // l'inscription en utilisant les données du formulaire
   };
 
   return (

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import NavBar from './navBar';
 import GraduationSlider from './graduationSlider'; // Importez GraduationSlider
 import CostGraduation from './costSlider';
-import './styles.css'; // Importez le fichier CSS que vous avez créé
+import './styles.css';
 
 function PresentationPage() {
 return (
@@ -19,7 +19,7 @@ return (
     </header> 
     <main className="main-content">
       <section className="grad-section">
-        {/* Contenu de la première section */}
+        {}
         <h2>Comment ça fonctionne ?</h2>
         <ul>
           <li>Craving vous offre un moyen efficace de suivre de près vos habitudes de consommation et de gérer toutes les dépenses associées à votre dépendance.</li>
@@ -28,9 +28,9 @@ return (
           <li>Cela vous permettra de prendre des décisions éclairées pour votre bien-être.</li>
         </ul>
       </section>
-      <GraduationSlider /> {/* Incluez le composant GraduationSlider ici */}
+      <GraduationSlider /> {}
       <section className="grad-section">
-        {/* Contenu de la deuxième section */}
+        {}
         <h2>Pourquoi le Craving ?</h2>
     <ul>
         <p>
@@ -39,7 +39,7 @@ return (
         </p>
       </ul>
       </section>
-      <CostGraduation /> {/* Incluez le composant CostGraduation ici */}
+      <CostGraduation /> {}
     </main>
     <footer className="footer">
       <p>
@@ -51,10 +51,10 @@ return (
       </p>
     </footer>
     <div className="button-container">
-      <Link to="/inscription" className="button-link"> {/* Lien vers la page d'inscription */}
+      <Link to="/inscription" className="button-link"> {}
         <button className="button">Créer un compte</button>
       </Link>
-      <Link to="/connexion" className="button-link"> {/* Lien vers la page de connexion */}
+      <Link to="/connexion" className="button-link"> {}
         <button className="button">Se connecter</button>
       </Link>
     </div>

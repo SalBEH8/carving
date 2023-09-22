@@ -9,11 +9,11 @@ import './styles.css'; // Importez le fichier CSS que vous avez créé
 
 ReactDOM.render(
   <Router>
-    <NavBar /> {/* Incluez la barre de navigation sur toutes les pages */}
+    <NavBar /> {}
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/inscription" element={<FormulairePage />} />
-      <Route path="/connexion" element={<AuthPage />} /> {/* Ajoutez la route pour la page de connexion */}
+      <Route path="/connexion" element={<AuthPage />} /> {}
     </Routes>
   </Router>,
   document.getElementById('root')

@@ -28,7 +28,7 @@ function CostGraduation() {
             <input
               type="range"
               min="0"
-              max="100" // Vous pouvez ajuster cette valeur selon vos besoins
+              max="100"
               step="1"
               value={cost}
               onChange={(e) => handleCostChange(item, parseFloat(e.target.value))}
