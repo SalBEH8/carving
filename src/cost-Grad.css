@@ -1,0 +1,54 @@
+/* cost-graduation.css */
+
+.cost-graduation {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cost-graduation h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #333;
+  }
+  
+  .cost-slider {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cost-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cost-item span {
+    font-size: 18px;
+    color: #333;
+    font-family: "Proxima Nova", sans-serif;
+  }
+  
+  .cost-item input[type="range"] {
+    width: 60%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .cost-item input[type="range"]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #4AB6D9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cost-item span:last-child {
+    font-weight: bold;
+  }
+  

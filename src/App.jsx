@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './navBar';
 import GraduationSlider from './graduationSlider'; // Importez GraduationSlider
+import CostGraduation from './costSlider';
 import './styles.css'; // Importez le fichier CSS que vous avez créé
 
 function PresentationPage() {
@@ -38,6 +39,7 @@ return (
         </p>
       </ul>
       </section>
+      <CostGraduation /> {/* Incluez le composant CostGraduation ici */}
     </main>
     <footer className="footer">
       <p>

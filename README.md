@@ -30,8 +30,6 @@ Interface Utilisateur (UI) :
 - Vous avez déjà des maquettes et des croquis prêts dans un dossier Figma, ce qui facilitera la conception de l'interface utilisateur. 
 Budget et Délais : 
 - Objectif de réalisation du projet en 6 mois maximum. 
-Soutien et Ressources : 
-- Vous disposez d'un solide bagage en développement web et en entrepreneuriat, ainsi que d'une expérience en développement commercial, ce qui devrait être un atout pour la réalisation de ce projet. 
 Autres Exigences :
 - L'accent sera mis sur la sécurité et l'accompagnement des utilisateurs dans leur lutte contre les addictions.
 
