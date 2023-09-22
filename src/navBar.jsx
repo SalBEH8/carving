@@ -6,7 +6,7 @@ import './styles.css'; // Importez le fichier CSS que vous avez créé
 function NavBar() {
 return (
 <nav>
-    <h1><Link to="/"class="logo">Carving</Link></h1>
+    <h1><Link to="/"class="logo">Craving Manager</Link></h1>
         <ul class="nav-list">
         <li>
         <Link to="/">Accueil</Link>

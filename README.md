@@ -1,7 +1,7 @@
 # Objectifs de l'Application : 
 
 Objectif principal : 
-- Lutter contre les addictions et l'obésité en utilisant le système de “carving."
+- Lutter contre les addictions et l'obésité en utilisant le système de "craving."
 Destinée à : 
 - Toutes les personnes qui souffrent d'addictions. 
 Fonctionnalités Principales : 
