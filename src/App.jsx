@@ -10,12 +10,10 @@ return (
   <div className="presentation-container">
     <NavBar />
       <header className="header"> 
-      {/*
       <div className="header-content">
         <h1 className="titre">Cravin Manager</h1>
         <p className="paragraphe">Une application pour vous aider à lutter contre les addictions et gérer votre budget.</p>
       </div> 
-      */}
     </header> 
     <main className="main-content">
       <section className="grad-section">
