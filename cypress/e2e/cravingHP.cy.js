@@ -3,6 +3,9 @@ describe('template spec', () => {
     cy.visit('http://localhost:5173/')
 
     // premier template
+    // Meteor
     cy.screenshot('install-et-teste')
+
+    // 
   })
 })
